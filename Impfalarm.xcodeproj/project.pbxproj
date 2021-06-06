@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F1A5F64266A70E00028E844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5F63266A70E00028E844 /* AppDelegate.swift */; };
+		2F1A5F66266A70E00028E844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5F65266A70E00028E844 /* SceneDelegate.swift */; };
+		2F1A5F68266A70E00028E844 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5F67266A70E00028E844 /* ContentView.swift */; };
+		2F1A5F6A266A70E40028E844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1A5F69266A70E40028E844 /* Assets.xcassets */; };
+		2F1A5F6D266A70E40028E844 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1A5F6C266A70E40028E844 /* Preview Assets.xcassets */; };
+		2F1A5F70266A70E40028E844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1A5F6E266A70E40028E844 /* LaunchScreen.storyboard */; };
+		2F1A5F7B266A70E40028E844 /* ImpfalarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5F7A266A70E40028E844 /* ImpfalarmTests.swift */; };
+		2F1A5F86266A70E40028E844 /* ImpfalarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5F85266A70E40028E844 /* ImpfalarmUITests.swift */; };
+		2F33DB47266CBF5D00EA55F5 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33DB46266CBF5C00EA55F5 /* Utility.swift */; };
+		2F33DB4C266CDA3D00EA55F5 /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33DB4B266CDA3C00EA55F5 /* Logic.swift */; };
+		2FC8BDEB266A71FC00DE913A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FC8BDEA266A71FC00DE913A /* GoogleService-Info.plist */; };
+		3207B128F90C8FDE844CFD0B /* Pods_Impfalarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8561FB80B167BEBA382F8C39 /* Pods_Impfalarm.framework */; };
+		D53B2C804304BE4C1EF95AD3 /* Pods_Impfalarm_ImpfalarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7224D39134EE21DA70D4C5A /* Pods_Impfalarm_ImpfalarmUITests.framework */; };
+		EC248C4782466C3CBBFE3321 /* Pods_ImpfalarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424DA8E75A2755D54DA0D749 /* Pods_ImpfalarmTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F1A5F77266A70E40028E844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F1A5F58266A70E00028E844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1A5F5F266A70E00028E844;
+			remoteInfo = Impfalarm;
+		};
+		2F1A5F82266A70E40028E844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F1A5F58266A70E00028E844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1A5F5F266A70E00028E844;
+			remoteInfo = Impfalarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F1A5F60266A70E00028E844 /* Impfalarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Impfalarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1A5F63266A70E00028E844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F1A5F65266A70E00028E844 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2F1A5F67266A70E00028E844 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F1A5F69266A70E40028E844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F1A5F6C266A70E40028E844 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F1A5F6F266A70E40028E844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F1A5F71266A70E40028E844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1A5F76266A70E40028E844 /* ImpfalarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpfalarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1A5F7A266A70E40028E844 /* ImpfalarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpfalarmTests.swift; sourceTree = "<group>"; };
+		2F1A5F7C266A70E40028E844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1A5F81266A70E40028E844 /* ImpfalarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpfalarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1A5F85266A70E40028E844 /* ImpfalarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpfalarmUITests.swift; sourceTree = "<group>"; };
+		2F1A5F87266A70E40028E844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F33DB46266CBF5C00EA55F5 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		2F33DB4B266CDA3C00EA55F5 /* Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
+		2F79E81FEB0176E92AD67D7A /* Pods-Impfalarm-ImpfalarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Impfalarm-ImpfalarmUITests.debug.xcconfig"; path = "Target Support Files/Pods-Impfalarm-ImpfalarmUITests/Pods-Impfalarm-ImpfalarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FB1E383266CFDD7008596C9 /* Impfalarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Impfalarm.entitlements; sourceTree = "<group>"; };
+		2FC8BDEA266A71FC00DE913A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		424DA8E75A2755D54DA0D749 /* Pods_ImpfalarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImpfalarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		676F02BF2AFA78C69CE47EFA /* Pods-ImpfalarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImpfalarmTests.release.xcconfig"; path = "Target Support Files/Pods-ImpfalarmTests/Pods-ImpfalarmTests.release.xcconfig"; sourceTree = "<group>"; };
+		7376E617BBBBF819DA0AE3D9 /* Pods-Impfalarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Impfalarm.debug.xcconfig"; path = "Target Support Files/Pods-Impfalarm/Pods-Impfalarm.debug.xcconfig"; sourceTree = "<group>"; };
+		7A46796170F19F05D1664EC3 /* Pods-ImpfalarmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImpfalarmTests.debug.xcconfig"; path = "Target Support Files/Pods-ImpfalarmTests/Pods-ImpfalarmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8561FB80B167BEBA382F8C39 /* Pods_Impfalarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Impfalarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		856A0A62823959B38FC1DF9A /* Pods-Impfalarm-ImpfalarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Impfalarm-ImpfalarmUITests.release.xcconfig"; path = "Target Support Files/Pods-Impfalarm-ImpfalarmUITests/Pods-Impfalarm-ImpfalarmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A7224D39134EE21DA70D4C5A /* Pods_Impfalarm_ImpfalarmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Impfalarm_ImpfalarmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C877A33D6FAAAD4173FAD2 /* Pods-Impfalarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Impfalarm.release.xcconfig"; path = "Target Support Files/Pods-Impfalarm/Pods-Impfalarm.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F1A5F5D266A70E00028E844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3207B128F90C8FDE844CFD0B /* Pods_Impfalarm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1A5F73266A70E40028E844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC248C4782466C3CBBFE3321 /* Pods_ImpfalarmTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1A5F7E266A70E40028E844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53B2C804304BE4C1EF95AD3 /* Pods_Impfalarm_ImpfalarmUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F1A5F57266A70E00028E844 = {
+			isa = PBXGroup;
+			children = (
+				2F1A5F62266A70E00028E844 /* Impfalarm */,
+				2F1A5F79266A70E40028E844 /* ImpfalarmTests */,
+				2F1A5F84266A70E40028E844 /* ImpfalarmUITests */,
+				2F1A5F61266A70E00028E844 /* Products */,
+				B9B0DEA786119EFEA8818403 /* Pods */,
+				38BBC9A61A153CE4A8D6419A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F1A5F61266A70E00028E844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F1A5F60266A70E00028E844 /* Impfalarm.app */,
+				2F1A5F76266A70E40028E844 /* ImpfalarmTests.xctest */,
+				2F1A5F81266A70E40028E844 /* ImpfalarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F1A5F62266A70E00028E844 /* Impfalarm */ = {
+			isa = PBXGroup;
+			children = (
+				2FB1E383266CFDD7008596C9 /* Impfalarm.entitlements */,
+				2FC8BDEA266A71FC00DE913A /* GoogleService-Info.plist */,
+				2F1A5F63266A70E00028E844 /* AppDelegate.swift */,
+				2F1A5F65266A70E00028E844 /* SceneDelegate.swift */,
+				2F1A5F67266A70E00028E844 /* ContentView.swift */,
+				2F1A5F69266A70E40028E844 /* Assets.xcassets */,
+				2F1A5F6E266A70E40028E844 /* LaunchScreen.storyboard */,
+				2F1A5F71266A70E40028E844 /* Info.plist */,
+				2F1A5F6B266A70E40028E844 /* Preview Content */,
+				2F33DB46266CBF5C00EA55F5 /* Utility.swift */,
+				2F33DB4B266CDA3C00EA55F5 /* Logic.swift */,
+			);
+			path = Impfalarm;
+			sourceTree = "<group>";
+		};
+		2F1A5F6B266A70E40028E844 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F1A5F6C266A70E40028E844 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F1A5F79266A70E40028E844 /* ImpfalarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F1A5F7A266A70E40028E844 /* ImpfalarmTests.swift */,
+				2F1A5F7C266A70E40028E844 /* Info.plist */,
+			);
+			path = ImpfalarmTests;
+			sourceTree = "<group>";
+		};
+		2F1A5F84266A70E40028E844 /* ImpfalarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F1A5F85266A70E40028E844 /* ImpfalarmUITests.swift */,
+				2F1A5F87266A70E40028E844 /* Info.plist */,
+			);
+			path = ImpfalarmUITests;
+			sourceTree = "<group>";
+		};
+		38BBC9A61A153CE4A8D6419A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8561FB80B167BEBA382F8C39 /* Pods_Impfalarm.framework */,
+				A7224D39134EE21DA70D4C5A /* Pods_Impfalarm_ImpfalarmUITests.framework */,
+				424DA8E75A2755D54DA0D749 /* Pods_ImpfalarmTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9B0DEA786119EFEA8818403 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7376E617BBBBF819DA0AE3D9 /* Pods-Impfalarm.debug.xcconfig */,
+				F5C877A33D6FAAAD4173FAD2 /* Pods-Impfalarm.release.xcconfig */,
+				2F79E81FEB0176E92AD67D7A /* Pods-Impfalarm-ImpfalarmUITests.debug.xcconfig */,
+				856A0A62823959B38FC1DF9A /* Pods-Impfalarm-ImpfalarmUITests.release.xcconfig */,
+				7A46796170F19F05D1664EC3 /* Pods-ImpfalarmTests.debug.xcconfig */,
+				676F02BF2AFA78C69CE47EFA /* Pods-ImpfalarmTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F1A5F5F266A70E00028E844 /* Impfalarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1A5F8A266A70E40028E844 /* Build configuration list for PBXNativeTarget "Impfalarm" */;
+			buildPhases = (
+				16ACF7DA7D8054C395B4FCCF /* [CP] Check Pods Manifest.lock */,
+				2F1A5F5C266A70E00028E844 /* Sources */,
+				2F1A5F5D266A70E00028E844 /* Frameworks */,
+				2F1A5F5E266A70E00028E844 /* Resources */,
+				45D72659C35E4A8421EB4F28 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Impfalarm;
+			productName = Impfalarm;
+			productReference = 2F1A5F60266A70E00028E844 /* Impfalarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F1A5F75266A70E40028E844 /* ImpfalarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1A5F8D266A70E40028E844 /* Build configuration list for PBXNativeTarget "ImpfalarmTests" */;
+			buildPhases = (
+				34D13014B5840A93203FE0C9 /* [CP] Check Pods Manifest.lock */,
+				2F1A5F72266A70E40028E844 /* Sources */,
+				2F1A5F73266A70E40028E844 /* Frameworks */,
+				2F1A5F74266A70E40028E844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F1A5F78266A70E40028E844 /* PBXTargetDependency */,
+			);
+			name = ImpfalarmTests;
+			productName = ImpfalarmTests;
+			productReference = 2F1A5F76266A70E40028E844 /* ImpfalarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F1A5F80266A70E40028E844 /* ImpfalarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1A5F90266A70E40028E844 /* Build configuration list for PBXNativeTarget "ImpfalarmUITests" */;
+			buildPhases = (
+				F1E367D4479C2A09C0AC3CCC /* [CP] Check Pods Manifest.lock */,
+				2F1A5F7D266A70E40028E844 /* Sources */,
+				2F1A5F7E266A70E40028E844 /* Frameworks */,
+				2F1A5F7F266A70E40028E844 /* Resources */,
+				96E0894B62BB38DEA0C58ABB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F1A5F83266A70E40028E844 /* PBXTargetDependency */,
+			);
+			name = ImpfalarmUITests;
+			productName = ImpfalarmUITests;
+			productReference = 2F1A5F81266A70E40028E844 /* ImpfalarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F1A5F58266A70E00028E844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2F1A5F5F266A70E00028E844 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2F1A5F75266A70E40028E844 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2F1A5F5F266A70E00028E844;
+					};
+					2F1A5F80266A70E40028E844 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2F1A5F5F266A70E00028E844;
+					};
+				};
+			};
+			buildConfigurationList = 2F1A5F5B266A70E00028E844 /* Build configuration list for PBXProject "Impfalarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F1A5F57266A70E00028E844;
+			productRefGroup = 2F1A5F61266A70E00028E844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F1A5F5F266A70E00028E844 /* Impfalarm */,
+				2F1A5F75266A70E40028E844 /* ImpfalarmTests */,
+				2F1A5F80266A70E40028E844 /* ImpfalarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F1A5F5E266A70E00028E844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1A5F70266A70E40028E844 /* LaunchScreen.storyboard in Resources */,
+				2F1A5F6D266A70E40028E844 /* Preview Assets.xcassets in Resources */,
+				2F1A5F6A266A70E40028E844 /* Assets.xcassets in Resources */,
+				2FC8BDEB266A71FC00DE913A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1A5F74266A70E40028E844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1A5F7F266A70E40028E844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16ACF7DA7D8054C395B4FCCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Impfalarm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34D13014B5840A93203FE0C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImpfalarmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45D72659C35E4A8421EB4F28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Impfalarm/Pods-Impfalarm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Impfalarm/Pods-Impfalarm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Impfalarm/Pods-Impfalarm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E0894B62BB38DEA0C58ABB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Impfalarm-ImpfalarmUITests/Pods-Impfalarm-ImpfalarmUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Impfalarm-ImpfalarmUITests/Pods-Impfalarm-ImpfalarmUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Impfalarm-ImpfalarmUITests/Pods-Impfalarm-ImpfalarmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E367D4479C2A09C0AC3CCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Impfalarm-ImpfalarmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F1A5F5C266A70E00028E844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F33DB47266CBF5D00EA55F5 /* Utility.swift in Sources */,
+				2F33DB4C266CDA3D00EA55F5 /* Logic.swift in Sources */,
+				2F1A5F64266A70E00028E844 /* AppDelegate.swift in Sources */,
+				2F1A5F66266A70E00028E844 /* SceneDelegate.swift in Sources */,
+				2F1A5F68266A70E00028E844 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1A5F72266A70E40028E844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1A5F7B266A70E40028E844 /* ImpfalarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1A5F7D266A70E40028E844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1A5F86266A70E40028E844 /* ImpfalarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F1A5F78266A70E40028E844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1A5F5F266A70E00028E844 /* Impfalarm */;
+			targetProxy = 2F1A5F77266A70E40028E844 /* PBXContainerItemProxy */;
+		};
+		2F1A5F83266A70E40028E844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1A5F5F266A70E00028E844 /* Impfalarm */;
+			targetProxy = 2F1A5F82266A70E40028E844 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F1A5F6E266A70E40028E844 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F1A5F6F266A70E40028E844 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F1A5F88266A70E40028E844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F1A5F89266A70E40028E844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F1A5F8B266A70E40028E844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7376E617BBBBF819DA0AE3D9 /* Pods-Impfalarm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Impfalarm/Impfalarm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Impfalarm/Preview Content\"";
+				DEVELOPMENT_TEAM = LQDASF64MT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Impfalarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.feuer.impfalarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F1A5F8C266A70E40028E844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C877A33D6FAAAD4173FAD2 /* Pods-Impfalarm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Impfalarm/Impfalarm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Impfalarm/Preview Content\"";
+				DEVELOPMENT_TEAM = LQDASF64MT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Impfalarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.feuer.impfalarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F1A5F8E266A70E40028E844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A46796170F19F05D1664EC3 /* Pods-ImpfalarmTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQDASF64MT;
+				INFOPLIST_FILE = ImpfalarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.feuer.ImpfalarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Impfalarm.app/Impfalarm";
+			};
+			name = Debug;
+		};
+		2F1A5F8F266A70E40028E844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676F02BF2AFA78C69CE47EFA /* Pods-ImpfalarmTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQDASF64MT;
+				INFOPLIST_FILE = ImpfalarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.feuer.ImpfalarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Impfalarm.app/Impfalarm";
+			};
+			name = Release;
+		};
+		2F1A5F91266A70E40028E844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F79E81FEB0176E92AD67D7A /* Pods-Impfalarm-ImpfalarmUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQDASF64MT;
+				INFOPLIST_FILE = ImpfalarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.feuer.ImpfalarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Impfalarm;
+			};
+			name = Debug;
+		};
+		2F1A5F92266A70E40028E844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856A0A62823959B38FC1DF9A /* Pods-Impfalarm-ImpfalarmUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQDASF64MT;
+				INFOPLIST_FILE = ImpfalarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.feuer.ImpfalarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Impfalarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F1A5F5B266A70E00028E844 /* Build configuration list for PBXProject "Impfalarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1A5F88266A70E40028E844 /* Debug */,
+				2F1A5F89266A70E40028E844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1A5F8A266A70E40028E844 /* Build configuration list for PBXNativeTarget "Impfalarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1A5F8B266A70E40028E844 /* Debug */,
+				2F1A5F8C266A70E40028E844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1A5F8D266A70E40028E844 /* Build configuration list for PBXNativeTarget "ImpfalarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1A5F8E266A70E40028E844 /* Debug */,
+				2F1A5F8F266A70E40028E844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1A5F90266A70E40028E844 /* Build configuration list for PBXNativeTarget "ImpfalarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1A5F91266A70E40028E844 /* Debug */,
+				2F1A5F92266A70E40028E844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F1A5F58266A70E00028E844 /* Project object */;
+}
